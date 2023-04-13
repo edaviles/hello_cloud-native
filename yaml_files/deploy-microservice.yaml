@@ -21,7 +21,7 @@ spec:
         app: api
     spec:
       containers:
-      - image: oacr0023.azurecr.io/oapi:7999
+      - image: oaviles.azurecr.io/oapi:7999
         name: api
         imagePullPolicy: Always
         ports:
